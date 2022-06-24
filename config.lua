@@ -82,6 +82,7 @@ local config = {
         mappings = {
           list = {
             { key = "l", action = "edit" },
+            { key = "h", action = "edit" },
           },
         },
       },

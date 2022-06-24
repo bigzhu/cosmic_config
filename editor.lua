@@ -18,8 +18,12 @@ opt.tabstop = 4
 
 -- Example: Additional insert mapping:
 map('i', 'jj', '<esc>', { noremap = true, silent = true })
-map('n', '<space>e', ':NvimTreeToggle<CR>')
+map('n', '<space>e', ':NvimTreeToggle<cr>')
+-- 重构
 map('n', 'rn', '<cmd>lua require("cosmic-ui").rename()<cr>')
+
+map('n', 'L', ':bnext<cr>')
+map('n', 'H', ':bprevious<cr>')
 -- Mapping options:
 -- map('n', ...)
 -- map('v', ...)
