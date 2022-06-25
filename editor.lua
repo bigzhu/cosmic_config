@@ -22,8 +22,8 @@ map('n', '<space>e', ':NvimTreeToggle<cr>')
 -- 重构
 map('n', 'rn', '<cmd>lua require("cosmic-ui").rename()<cr>')
 
-map('n', 'L', ':bnext<cr>')
-map('n', 'H', ':bprevious<cr>')
+-- map('n', 'L', ':bnext<cr>')
+-- map('n', 'H', ':bprevious<cr>')
 -- Mapping options:
 -- map('n', ...)
 -- map('v', ...)

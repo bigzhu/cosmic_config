@@ -81,8 +81,9 @@ local config = {
         adaptive_size = true,
         mappings = {
           list = {
-            { key = "l", action = "edit" },
-            { key = "h", action = "edit" },
+            { key = "l", action = "tabnew" },
+            { key = "h", action = "tabnew" },
+            { key = "t", action = "tabnew" },
           },
         },
       },
